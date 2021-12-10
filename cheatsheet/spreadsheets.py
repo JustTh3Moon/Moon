@@ -5,7 +5,7 @@ https://youtu.be/T1vqS1NL89E
 https://youtu.be/bu5wXjz2KvU
 - Docs gspread:
 https://docs.gspread.org/en/latest/
-- How to install pip (And turn an python script into an application:
+- How to install pip (And turn a python script into an application:
 https://youtu.be/UZX5kH72Yx4
 '''
 import gspread #pip install gspread
