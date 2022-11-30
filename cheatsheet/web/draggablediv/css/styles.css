@@ -1,0 +1,13 @@
+#drag {
+    position: absolute;
+    text-align: center;
+    background-color: crimson;
+    border: 1px solid black;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    background-color: black;
+    color: aliceblue;
+}
