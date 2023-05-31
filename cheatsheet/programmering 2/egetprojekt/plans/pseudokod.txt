@@ -1,0 +1,15 @@
+Presentera användaren med pusslet och två knappar: Shuffle och Reset
+Om användaren trycker på Shuffle
+    Blanda pusslet
+    Starta timern
+Om användaren trycker på Reset
+    Sortera pusslet till default ordning
+    Timern återställs
+Upprepas
+    Om användaren trycker på en ruta som har en tom ruta bredvid
+        Flytta på rutan
+    Om pusslet är löst
+        Timern stoppas
+        Om timern är lägre än rekordet
+            Sätt den nya tiden från timern som rekordet
+        

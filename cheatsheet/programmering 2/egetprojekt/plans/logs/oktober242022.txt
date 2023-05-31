@@ -1,0 +1,11 @@
+Datum: 24 oktober 2022
+
+1. Vad har du gjort/arbetat med under lektion?
+Gjort klart aktivitetsdiagrammet. Påbörjat att programmera klassen och några instansmetoder. 
+
+2. Vad har varit svårt eller utmanande?
+Just idag är det väl att förklara i kommentarer att jag förstår hur rutnätet för spelbrickan ritas upp fungerar. 
+Sen även försöker jag klura ut hur jag ska skapa klassdiagrammet, det kan vara svårt att göra innan när jag inte ännu har en stor överblick på hur programmet kommer vara uppbyggt, vilka egenskaper eller metoder den kommer bära på osv. 
+
+3. Vad planerar du göra till nästa gång?
+Att fortsätta programmera vidare med spelet. 

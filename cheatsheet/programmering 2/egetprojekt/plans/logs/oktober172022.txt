@@ -1,0 +1,15 @@
+Datum: 17 oktober 2022
+
+1. Vad har du gjort/arbetat med under lektion?
+Idag har jag valt vad jag vill arbeta med - Sliding puzzle spel. Jag har även gjort i ordning tidsplaneringen. Jag kan lägga den här men den kommer även med som bifogad fil i slutinlämningen. 
+
+Utöver det så har jag skrivit syfte, mål och tillvägagångssätt och förberett ett dokument där jag kommer lägga min slutdokumentation. Jag har även påbörjat den tekniska planering och skrivit pseudokoden samt påbörjat aktivitetsdiagrammet. 
+Jag har slutligen gjort i ordning en egen checklista på vad som kommer behövas göra och lagt in alla delar som kommer krävas att göras under projektets gång. 
+
+2. Vad har varit svårt eller utmanande?
+Jag tycker nog det svåraste just nu är att göra i ordning aktivitetsprogrammet. 
+
+3. Vad planerar du göra till nästa gång?
+Fortsätta med den tekniska planering och påbörja koda programmet.
+
+

@@ -1,0 +1,55 @@
+PROJEKT
+NAMN: Speculative Fiction
+
+- Skriva ett program som kräver inloggning 
+(username, password)
+
+- Kunna ändra sina inloggningsinformation 
+(username, password (kanske profile picture om tid finns))
+
+- Lägga in serier/filmer
+(type (TV-Show/Movie), episode count/movie lenght, rating (1-5), 
+status (plan to watch, currently watching, completed, on-hold))
+Kunna ange om serien/filmen är färdigsedd
+
+- Kunna ändra alla attribut som nämns ovan 
+
+- Kunna kommentera eller ge en kort recension
+
+- Kunna plocka fram tidslinje på när man sett klart och när man sett avsnittet 
+(bockat i att ett avsnitt setts)
+
+Basically kommer det finnas två klasser
+En klass för "users"
+attribut: 
+id
+username
+password
+
+function:
+createUser 
+adds username and password to a database
+
+function:
+editUser
+change username or password in the database 
+(must be logged in (change by reading the id, and changing that id's username or password))
+
+class: "fiction"
+attribut: 
+id
+title
+type
+
+subclass to "fiction": "movie"
+attribut: 
+length
+
+subclass to "fiction": "tv-show" 
+attribut:
+amount of episodes
+
+using ids to track 
+users progress on episode (for tv-shows)
+users status on the fiction (plan to watch, currently watching, completed, on-hold)
+users rating (1-5)

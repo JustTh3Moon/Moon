@@ -1,0 +1,5 @@
+Starta spel
+Osorterat pussel presenteras
+Lös spelet
+Blir spelet klart så rensas spelplanen och "You solved the puzzle" presenteras på skärmen
+Vill man spela om får man helt enkelt bara starta om programmet

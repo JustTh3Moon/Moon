@@ -1,0 +1,18 @@
+[-] Skapa en window 
+[-] Skapa ett rutnät på 9 tiles genom att dela upp hela windowen i 9 bitar
+[-] Skapa den osynliga spelplanen
+1 2 3
+4 5 6
+7 8 0
+[-] Ta reda på vart musen klickar
+[-] Trycker man på en tile som har en siffra i sig så ska den byta plats med siffran i den osynliga spelplanen
+Alltså skapa en funktion som tar reda på vilken siffra/ruta som trycks
+[-] Skapa en funktion som tar reda på om nollan är bredvid siffran som trycks på/alternativt skapa en funktion 
+som tar reda på vilka siffror som är bredvid nollan och ens kan flyttas på, lägg in dem i en lista som 
+uppdateras/funktionen kallas efter varje gång en siffra flyttas på 
+[-] Skapa en funktion som kollar om spelet är klart, alltså om spelaren har vunnit, i så fall, rensa hela skärmen 
+och skriv grattis, du vann!
+[-] Skapa den fysiska spelplanen med rutor
+[-] Sätt siffrorna i resp. ruta samt samt fyll inte i den som är en nolla
+[-] Flytta på rutan som det står en siffra i till den tomma rutan
+[-] För varje move som görs så kommer ju hela skärmen uppdateras

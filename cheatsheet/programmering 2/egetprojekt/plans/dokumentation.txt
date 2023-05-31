@@ -1,0 +1,34 @@
+Planering
+
+5 lektioner - 15h 
+
+Lektion 1 
+1h - Brainstorma projektidé
+2h - Skapa tidsplan och teknisk planering
+3h - Teknisk planering
+
+Lektion 2
+1h - Teknisk planering och påbörja utveckling av produkt
+2h - Utveckling av produkt
+3h - Utveckling av produkt
+
+Lektion 3
+1h - Utveckling av produkt
+2h - Utveckling av produkt
+3h - Utveckling av produkt
+
+Lektion 4
+1h - Utveckling av produkt
+2h - Utveckling av produkt
+3h - Utveckling av produkt
+
+Lektion 5
+1h - Tweaking
+2h - Tweaking
+3h - Kontrollera uppgiften och inlämning
+
+Referenser 
+OOP Sliding Puzzle Tutorial
+https://www.youtube.com/playlist?list=PLOcNsDskpOqpKhkN6tLId128o0vFWWauV
+Pseudocode Tutorial for games
+https://www.canyoucompute.co.uk/l10-pseudocode.html
