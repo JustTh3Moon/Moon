@@ -1,0 +1,104 @@
+body {
+    background-color: #2F2D2E;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: azure;
+}
+
+.banner img {
+    border-radius: 30px;
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+}
+
+.banner:hover{
+    cursor: default;
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    color: azure;
+    font-size: 50px;
+}
+
+footer {
+    padding-top: 10px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 10px;
+}
+
+footer:hover {
+    cursor: default;
+}
+
+.card {
+    transition: 0.3s;
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 15px;
+    background-color: #2F2D2E;
+    opacity: 90%;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card img {
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.container {
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+button {
+    transition: 0.3s;
+    background-color: azure;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 70%;
+}
+
+.gallery img {
+    object-fit: cover;
+    width: 280px;
+    height: 280px;
+    float: left;
+    padding: 15px;
+    border-radius: 30px;
+}

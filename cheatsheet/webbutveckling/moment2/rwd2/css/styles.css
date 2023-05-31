@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+    border:1px solid red;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* För surfplattor eller enheter större än 468px   */
+@media only screen and (min-width: 468px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+/* For datorer och stora skärmar större än 768px */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.header {
+    align-items: center;
+}
+
+* {
+    background-color:darksalmon;
+    color: aliceblue;
+}
+
+.services table, tr, td {
+    border: 1px solid aliceblue;
+    padding: 3px;
+}
+
+.contact h2, input, select, textarea {
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.contact input[type=text] {
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+    background-color: aliceblue;
+    opacity: 70%;
+    color: black;
+}
+
+.contact label {
+    padding-left: 20px;
+}
+
+.contact select {
+    background-color: aliceblue;
+    color: gray;
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+    opacity: 70%;
+}
+
+.contact select option {
+    background-color: aliceblue;
+    opacity: 70%;
+    color: gray;
+}
+
+.contact textarea {
+    margin-top: 10px;
+    background-color: aliceblue;
+    opacity: 70%;
+    color: black;
+    border-radius: 4px;
+    border-color: aliceblue;
+    resize: none;
+}
+
+.contact input[type=submit] {
+    border-radius: 4px;
+    background-color: aliceblue;
+    opacity: 70%;
+    color: black;
+}
+
+.contact img {
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}

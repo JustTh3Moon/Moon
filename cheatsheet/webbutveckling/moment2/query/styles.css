@@ -1,0 +1,62 @@
+/* Default */
+* {
+    background-color: goldenrod;
+}
+
+img {
+    object-fit: cover;
+    width: 280px;
+    height: 280px;
+    margin:10px;
+    float: left;
+    padding-left: 8px;
+}  
+
+/* For desktops*/
+@media only screen and (max-width: 1024px) {
+    * {
+        background-color: goldenrod;
+    }
+    
+    img {
+        object-fit: cover;
+        width: 225px;
+        height: 225px;
+        margin:10px;
+        float: left;
+        padding-left: 4px;
+    }   
+}
+
+/* For tablets */
+@media only screen and (max-width: 768px) {
+    * {
+        background-color: crimson;
+    }
+
+    img {
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .container {
+        padding-left: 40px;
+        padding-top: 30px;
+        float: left;
+    }
+}
+
+/* For phones */
+@media only screen and (max-width: 430px) {
+    * {
+        background-color: thistle;
+    }
+
+    img {
+        object-fit: cover;
+        width: 320px;
+        height: 320px;
+    }
+}

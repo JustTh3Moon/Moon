@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: black;
+    background-color: #F5F5F5;
+    padding: 5em;
+}
+
+article {
+    background-color: #E9E9E9;
+}
+
+footer {
+    background-color: yellow;
+    text-align: center;
+}
+
+a {
+    color: darkred;
+}
+
+a :hover {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.left img {
+    width: 75%;
+    height: 75%;
+}
+
+.right img {
+    width: 45%;
+    height: 75%;
+}
+
+.left h2 {
+    color: blue;
+}
+
+.right h2 {
+    color: orange;
+}

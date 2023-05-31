@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppgift 1 - Caisa Skog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1 id="head1">Cat</h1>
+    <h2>Have some buttons</h2>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+    <button onclick="changeHeader1Color()">Change H1 Color</button>
+    <button onclick="biggerHeader()">Make Header Bigger</button>
+    <button onclick="smallerHeader()">Make Header Smaller</button>
+    <button onclick="paragraphBackground()">Add/Change Background on Paragraphs</button>
+    <button onclick="smallerImage()">Make Image Smaller</button>
+    <button onclick="animateElement()">Animate grumpy</button>
+
+    <h3>Customize input :D</h3>
+    <button onclick="expand()" id="expand">Expand Options</button>
+
+    <div id="options">
+        <!-- Colors -->
+        <p>Pick a color below, then press a button beside the color picker to choose what element to change to</p>
+        <input type="color" value="#000" id="colorPicker">
+        <button id="ownBackground">Background Color</button>
+        <button id="ownHeader">Header Color</button>
+        <button id="ownParagraph">Paragraph Background</button>
+        <br> <br>
+
+        <!-- Font size -->
+        <!-- Header -->
+        <label for=""><strong>Header text size</strong></label>
+        <br>
+        <input type="text" placeholder="Enter in pixels" id="textHeader">
+        <button onclick="textHeader()">Confirm</button>
+        <button onclick="resetHeader()">Reset</button>
+        <br><br>
+
+        <!-- Paragraph -->
+        <label for=""><strong>Paragraph text size</strong></label>
+        <br>
+        <input type="text" placeholder="Enter in pixels" id="textParagraph">
+        <button onclick="textParagraph()">Confirm</button>
+        <button onclick="resetParagraph()">Reset</button>
+        <br><br>
+
+        <!-- Image size -->
+        <label for=""><strong>Enter image size</strong></label>
+        <br><br>
+        <label for=""><strong>Width</strong></label>
+        <br>
+        <input type="text" placeholder="Enter in pixels" id="imgWidth">
+        <br><br>
+        <label for=""><strong>Height</strong></label>
+        <br>
+        <input type="text" placeholder="Enter in pixels" id="imgHeight">
+        <br><br>
+        <button onclick="ownImgSize()">Confirm image size</button>
+        <button onclick="resetImg()">Reset image</button>
+    </div>
+
+    <p id="para">Look, it's a cat!</p>
+    <div id="container">
+        <img id="grumpy" src="img/grumpyCat.png" alt="A grumpy cat">
+    </div>
+</body>
+
+</html>

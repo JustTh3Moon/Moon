@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    background: #8C1C13;
+}
+
+.main-content {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content img {
+    margin-left: 35%;
+}
+
+.main-content h1 {
+    font-size: 100px;
+    font-family: monospace;
+}

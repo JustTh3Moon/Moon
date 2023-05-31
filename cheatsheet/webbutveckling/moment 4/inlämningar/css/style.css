@@ -1,0 +1,32 @@
+*{
+    font-family: monospace;
+}
+
+button {
+    border: transparent;
+    border-radius: 5px;
+    background-color: lightcoral;
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 3px 
+}
+
+
+#options {
+    margin-top: 5px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#container {
+    position: relative;
+}
+
+#grumpy {
+    position: absolute;
+}
+
+img {
+    object-fit: cover;
+}

@@ -1,0 +1,29 @@
+*{
+    background-color: aqua;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 3%;
+    background-color: white;
+    display: inline-block;
+}
+
+/* For smaller devices */
+@media only screen and (min-width: 468px) and (max-width: 600px) {
+    *{
+        background-color: red;
+    }
+}
+
+/* For tablets */
+@media only screen and (max-width: 768px) {
+    *{
+        background-color: yellow;
+    }
+
+    div {
+        width: 40%;   
+    }
+}

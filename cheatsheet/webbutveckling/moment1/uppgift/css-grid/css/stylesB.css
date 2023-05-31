@@ -1,0 +1,55 @@
+.item1 {
+    grid-area: header;
+}
+
+.meny {
+    grid-area: meny;
+    background-color: #ADD8E6;
+    padding: 5px;
+}
+
+.item2 {
+    grid-area: main;
+    background-color: yellow;
+}
+
+.item3 {
+    grid-area: footer;
+    background-color: red;
+}
+
+.grid-container {
+    display: grid;
+    height: 500px;
+    grid-template-areas: 
+    'header header'
+    'meny main'
+    'meny footer';
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 150px 1fr;
+    background-color: #F5F5F5;
+    padding: 5px;
+}
+
+.meny > div {
+    display: inline-block;
+    width: 20px;
+}
+
+.item2 div {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
