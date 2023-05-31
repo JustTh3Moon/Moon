@@ -1,0 +1,7 @@
+Gällande projektlösningar/rapport
+1. Relevanta ord
+2. Vem gör jag det (målgrupp) för?
+3. Varför gör jag programmet?
+4. Koda och bygg programmet (Kommentera)
+5. Hur kan det bli bättre?
+
