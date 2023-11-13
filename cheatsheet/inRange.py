@@ -2,23 +2,23 @@ from random import randrange
 import time
 
 # Produces a new number in range of the assigned number
-def inRange(x):
+def inRange(startNumber):
     numberRange = 10
-    xMin = x - numberRange
-    print(f"Given min variable: {xMin}")
-    xMax = x + numberRange + 1
-    print(f"Given max variable: {xMax}")
+    numberMin = startNumber - numberRange
+    print(f"Given min variable: {numberMin}")
+    numberMax = startNumber + numberRange + 1
+    print(f"Given max variable: {numberMax}")
     
     # Limits the number to postiives only
-    if xMin < rangeMin:
-        xMin = rangeMin
+    if numberMin < rangeMin:
+        numberMin = rangeMin
 
-    if xMax > rangeMax + 1:
-        xMax = rangeMax + 1
+    if numberMax > rangeMax + 1:
+        numberMax = rangeMax + 1
 
-    randNumber = randrange(xMin - 1, xMax)
-    allPossibilities(xMin, xMax)
-    print(f"\nThe random number was: {x}")
+    randNumber = randrange(numberMin - 1, numberMax)
+    allPossibilities(numberMin, numberMax)
+    print(f"\nThe random number was: {startNumber}")
     return randNumber
 
 def allPossibilities(x, y):
