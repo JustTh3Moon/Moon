@@ -4,20 +4,20 @@ import time
 # Produces a new number in range of the assigned number
 def inRange(x):
     numberRange = 10
-    rangeMin = x - numberRange
-    print(f"Given min variable: {rangeMin}")
-    rangeMax = x + numberRange + 1
-    print(f"Given max variable: {rangeMax}")
+    xMin = x - numberRange
+    print(f"Given min variable: {xMin}")
+    xMax = x + numberRange + 1
+    print(f"Given max variable: {xMax}")
     
     # Limits the number to postiives only
-    if rangeMin < 0:
-        rangeMin = 0
+    if xMin < rangeMin:
+        xMin = rangeMin
 
-    if rangeMax > 51:
-        rangeMax = 51
+    if xMax > rangeMax + 1:
+        xMax = rangeMax + 1
 
-    randNumber = randrange(rangeMin - 1, rangeMax)
-    allPossibilities(rangeMin, rangeMax)
+    randNumber = randrange(xMin - 1, xMax)
+    allPossibilities(xMin, xMax)
     print(f"\nThe random number was: {x}")
     return randNumber
 
