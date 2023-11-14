@@ -1,5 +1,4 @@
 from random import randrange
-import time
 
 # Produces a new number in range of the assigned number
 def inRange(startNumber):
