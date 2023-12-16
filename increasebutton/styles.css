@@ -1,6 +1,16 @@
+* {
+    /* border: 1px solid red; */
+    font-family: monospace;
+}
+
 .wrapper {
     width: fit-content;
     margin: 0 auto;
     margin-top: 25vh;
     text-align: center;
+    padding: 1em;
+}
+
+.multiplier {
+    padding-top: 1em;
 }

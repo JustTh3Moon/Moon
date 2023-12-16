@@ -16,7 +16,13 @@
             <input type="button" onclick="incrementValue()" value="Increment Value" />
             <input type="button" onclick="resetValue()" value="Reset Value">
          </form>
-        <p>3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39</p>
+        <div class="multiplier">
+            <input type="text" id="base", value="", placeholder="Multiplier base">
+            <input type="text" id="topValue", value="", placeholder="Top value">
+            <input type="button" onclick="getMultiTable()" value="Get Multiplication">
+            <input type="button" onclick="resetMultiply()" value="Reset Multiplication">
+            <p id="multiplicationTable"></p>
+        </div>
     </div>
 </body>
 </html>
