@@ -1,14 +1,14 @@
 function incrementValue()
 {
-    var value = parseInt(document.getElementById('number').value, 10);
+    var value = parseInt(document.getElementById("stitch").value, 10);
     value = isNaN(value) ? 0 : value;
     value++;
-    document.getElementById('number').value = value;
+    document.getElementById("stitch").value = value;
 }
 
 function resetValue()
 {
-    document.getElementById('number').value = 0;
+    document.getElementById("stitch").value = 0;
 }
 
 function getMultiTable()
