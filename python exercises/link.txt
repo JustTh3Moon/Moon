@@ -1,0 +1,2 @@
+Link to the list of exercises we'll be doing in this particular folder
+https://www.w3resource.com/python-exercises/
