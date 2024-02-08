@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Keep track of which stich</h1>
+        <h2>you're on</h2>
+        <form>
+            <input type="text" id="stitch" value="0"/>
+            <input type="button"onclick="incrementValue()" value="Increment Stitch Value" />
+            <input type="button"onclick="resetValue()" value="Reset Stitch Value">
+        </form>
+        <div class="multiplier">
+            <input type="text" id="base", value="", placeholder="Multiplier base">
+            <input type="text" id="topValue", value="", placeholder="Top value">
+            <input type="button" onclick="getMultiTable()" value="Get Multiplication">
+            <input type="button" onclick="resetMultiply()" value="Reset Multiplication">
+            <p id="multiplicationTable"></p>
+        </div>
+    </div>
+</body>
+</html>

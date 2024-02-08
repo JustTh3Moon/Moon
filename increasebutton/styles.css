@@ -1,0 +1,39 @@
+* {
+    /* border: 1px solid red; */
+    font-family: monospace;
+    background-color: hsl(0, 0%, 9%);
+    color: 	hsl(0, 0%, 87%);
+}
+
+.wrapper {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 25vh;
+    text-align: center;
+    padding: 1em;
+}
+
+.multiplier {
+    padding-top: 1em;
+}
+
+input {
+    background-color: hsl(104, 25%, 31%);
+    border: none;
+    padding: 1em;
+    border-radius: .5em;
+    margin: .2em;
+}
+
+input:hover[type=button] {
+    background-color: hsl(104, 25%, 38%);
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: hsl(0, 0%, 87%);
+}
+
+.stitch, .round {
+    display: inline-block;
+}
