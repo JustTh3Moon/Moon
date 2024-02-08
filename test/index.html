@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning radio buttons</title>
+    <script src="script.js"></script>
+</head>
+<body id="index">
+    <form method="POST" action="php/changeColorText.php">
+        <fieldset id="radio-buttons">
+            <legend>Color of text</legend>
+                <div>
+                    <input type="radio" id="white" name="color" value="white" checked>
+                    <label for="">White</label>
+                </div>
+                <div>
+                    <input type="radio" id="black" name="color" value="black">
+                    <label for="black">Black</label>
+                </div>
+                <div>
+                    <input type="submit" value="Save" name="Save">
+                </div>
+        </fieldset>
+    </form>    
+</body>
+</html>
